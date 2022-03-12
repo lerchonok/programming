@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1647027421 source:c:\users\Валерия\desktop\программирование 2\lab2\ofstream.cpp
+	"Ofstream.h"
+
+1647080509 c:\users\Валерия\desktop\программирование 2\lab2\ofstream.h
+	<iostream>
+	<fstream>
+
+1647027508 source:c:\users\Валерия\desktop\программирование 2\lab2\main.cpp
+	<iostream>
+	"Ofstream.h"
+	"Runner.h"
+
+1647027508 c:\users\Валерия\desktop\программирование 2\lab2\runner.h
+	<iostream>
+	"Ofstream.h"
+
+1647027508 source:c:\users\Валерия\desktop\program2\lab2\main.cpp
+	<iostream>
+	"Ofstream.h"
+	"Runner.h"
+
+1647080509 c:\users\Валерия\desktop\program2\lab2\ofstream.h
+	<iostream>
+	<fstream>
+
+1647027508 c:\users\Валерия\desktop\program2\lab2\runner.h
+	<iostream>
+	"Ofstream.h"
+
+1647027421 source:c:\users\Валерия\desktop\program2\lab2\ofstream.cpp
+	"Ofstream.h"
+
+1647027508 source:c:\desktop\program2\lab2\main.cpp
+	<iostream>
+	"Ofstream.h"
+	"Runner.h"
+
+1647080509 c:\desktop\program2\lab2\ofstream.h
+	<iostream>
+	<fstream>
+
+1647027508 c:\desktop\program2\lab2\runner.h
+	<iostream>
+	"Ofstream.h"
+
+1647027421 source:c:\desktop\program2\lab2\ofstream.cpp
+	"Ofstream.h"
+
