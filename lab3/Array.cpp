@@ -19,7 +19,7 @@ void Array::eraseValue(int value) {
 }
 
 
-Array &operator+(Array &obj1, Array &obj2) {
+Array operator+(Array &obj1, Array &obj2) {
     std::set<int> vect;
     for(auto i: obj1.getArray()){
         vect.insert(i);
@@ -27,15 +27,14 @@ Array &operator+(Array &obj1, Array &obj2) {
     for(auto i: obj2.getArray()){
         vect.insert(i);
     }
-    Array* obj = new Array(vect);
-    return *obj;
+    return Array(vect);
 }
 
 bool operator==(Array &obj1, Array &obj2) {
     if(obj1.getArray().size() != obj2.getArray().size()) {
         return false;
     }
-    for(auto i: obj1.getArray()){
+   //! for(auto i: obj1.getArray()){
         if(obj2.getArray().find(i) == obj2.getArray().end()){
             return false;
         }
